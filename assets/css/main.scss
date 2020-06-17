@@ -1,0 +1,46 @@
+.row {
+  margin-right: 10% !important;
+  margin-left: 10% !important;
+}
+
+.heading-row {
+  position: relative;
+}
+
+#title {
+  font-size: 3em;
+}
+
+.heading-text {
+  font-size: 1.4em;
+}
+
+.btm-align {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.plain-link {
+    color: black;
+}
+
+.plain-link:hover {
+
+  color: black;
+  text-decoration: none;
+}
+
+#home-link {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #f2d3d3;
+}
+
+#blog-link:hover {
+  border-bottom: 3px solid #ffe299;
+}
+
+#resume-link:hover {
+  border-bottom: 3px solid #d1eaed;
+}
