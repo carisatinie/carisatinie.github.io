@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: / 
 ---
 
 Hi! I'm Christine, a software engineer living in New York City. 
