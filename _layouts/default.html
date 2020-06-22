@@ -6,10 +6,11 @@
   {% if page.custom_css %}
     <link rel="stylesheet" href="/assets/css/{{ page.custom_css }}.scss">
   {% endif %}
-
-
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" href="item.js"></script>
+  {% if page.custom_js %}
+    <script type="text/javascript" src="/assets/js/{{ page.custom_js }}.js"></script>
+  {% endif %}
 </head>
 
 <body>
