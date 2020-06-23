@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;900&family=Open+Sans&family=Roboto:wght@300;400&display=swap');
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -10,6 +10,10 @@
   .container {
     width: 75vh;
   }
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .heading-row {
