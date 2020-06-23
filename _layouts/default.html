@@ -1,23 +1,20 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="/assets/css/main.scss">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/assets/css/main.scss">
   {% if page.custom_css %}
     <link rel="stylesheet" href="/assets/css/{{ page.custom_css }}.scss">
   {% endif %}
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" href="item.js"></script>
-  {% if page.custom_js %}
-    <script type="text/javascript" src="/assets/js/{{ page.custom_js }}.js"></script>
-  {% endif %}
 </head>
 
 <body>
   <div class="container">
       <div class="heading-row row">
-        <div class="col-md-6" id="title">
-          <a href="/" class="plain-link">christine</a></div>
+        <div class="col-md-6" id="title-div">
+          <a href="/" class="plain-link" id="site-title">ch.</a></div>
         
         <div class="col-md-2 align-self-center heading-text">
           <a href="/" class="plain-link home-link">home</a>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;900&display=swap');
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 80vh;
@@ -10,22 +12,14 @@
   }
 }
 
-.row {
-  //margin-right: 10% !important;
-  //margin-left: 10% !important;
-}
-
 .heading-row {
   margin-bottom: 7%;
+  padding-top: 2%;
   position: relative;
 }
 
 .content-row {
   margin-top: 10%;
-}
-
-#title {
-  font-size: 3em;
 }
 
 .heading-text {
@@ -47,16 +41,8 @@
   text-decoration: none;
 }
 
-//#home-link {
-//  color: black;
-//  text-decoration: none;
-//  border-bottom: 3px solid #f2d3d3;
-//}
-
-//#blog-link:hover {
-//  border-bottom: 3px solid #ffe299;
-//}
-
-//#resume-link:hover {
-//  border-bottom: 3px solid #d1eaed;
-//}
+#site-title {
+  font-family: 'Martel', serif;
+  font-size: 2.6em;
+  font-weight: 900;
+}
