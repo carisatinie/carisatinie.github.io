@@ -1,8 +1,11 @@
+a {
+  text-decoration: none;
+}
+
 .home-link {
   text-decoration: none;
   border-bottom: 3px solid #f2d3d3;
 }
-
 
 .blog-link:hover {
   text-decoration: none;
@@ -12,4 +15,49 @@
 .resume-link:hover {
   text-decoration: none;
   border-bottom: 3px solid #d1eaed;
+}
+
+.footer {
+  font-family: 'Martel', sans-serif;
+  font-size: 0.8em;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.footer-icon {
+  height: 25px;
+}
+
+#github-link {
+  color: #CD5757;
+  text-decoration: none;
+}
+
+#github-link:hover {
+  color: #CD5757;
+  font-style: italic;
+}
+
+#linkedin-link {
+  color: #CD5757;
+  text-decoration: none;
+}
+
+#linkedin-link:hover {
+  color: #CD5757;
+  font-style: italic;
+}
+
+#goodreads-link {
+  color: #CD5757;
+  text-decoration: none;
+}
+
+#goodreads-link:hover {
+  color: #CD5757;
+  font-style: italic;
+}
+
+.not-rightmost {
+  margin-right: 7%;
 }

@@ -1,5 +1,5 @@
 .exp-row {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .heading {
@@ -34,10 +34,18 @@
 .team-name {
 }
 
+.team-link {
+  color: black;
+}
+
+.team-link:hover {
+  color: #5db6c0;
+}
+
 .job-title {
   font-weight: bold;
 }
 
 .date {
-  font-size: 0.85em;
+  font-style: italic;
 }
