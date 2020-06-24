@@ -3,7 +3,11 @@
 }
 
 .heading {
-  font-size: 1.5em;
+  color: #5db6c0;
+  //font-family: 'Martel', serif;
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   padding-bottom: 20px;
 }
 
@@ -22,7 +26,18 @@
   border-bottom: 3px solid #d1eaed;
 }
 
-.resume-list {
-  list-style-type: none;
+.company-name {
+  font-size: 1.15em;
+  font-weight: bold;
 }
 
+.team-name {
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.85em;
+}
