@@ -1,3 +1,15 @@
+a>button {
+  background: white;
+  border: 2px solid #A2D5DB;
+  color: #47ABB7;
+  border-radius: 5px;
+}
+
+a>button:hover {
+  background: #F8FCFC;
+  cursor: pointer;
+}
+
 .resume-row {
   padding-bottom: 30px;
 }
@@ -6,12 +18,14 @@
   padding-bottom: 20px;
 }
 
-.heading {
+.section-heading-text {
   color: #5db6c0;
-  //font-family: 'Martel', serif;
   font-size: 1.3em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
+}
+
+.section-heading-padding {
   padding-bottom: 20px;
 }
 
@@ -35,9 +49,6 @@
   font-weight: bold;
 }
 
-.team-name {
-}
-
 .team-link {
   color: black;
 }
@@ -58,3 +69,4 @@
 #skills-heading {
   padding-top: 30px;
 }
+

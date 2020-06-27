@@ -3,11 +3,13 @@
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> 
   <link rel="stylesheet" href="/assets/css/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
     <link rel="stylesheet" href="/assets/css/resume.scss">
   
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" href="item.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -29,14 +31,19 @@
         </div>
       </div>
 
-      <div class="row heading">experience</div>
+      <div class="row section-heading-padding justify-content-between">
+  <div class="section-heading-text">experience</div>
+  <div><a href="https://carisatinie.github.io/assets/resume-may2020.pdf" 
+          target="_blank"><button>View Resume</button></a></div>
+</div>
 
 <!-- Google Funding Choices -->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">Google</span>
     </br>
-    <span class="team-name"><a href="https://fundingchoices.google.com/" class="team-link">Ads Funding Choices</a></span>
+    <span><a href="https://fundingchoices.google.com/" 
+        class="team-link">Ads Funding Choices</a></span>
   </div>
   <div class="col-md-8 job-description">
     <span class="job-title">Software Engineer</span>
@@ -46,11 +53,12 @@
 </div>
 
 <!-- Google Ads Overview-->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">Google</span>
     </br>
-    <span class="team-name"><a href="https://ads.google.com/home/" class="team-link">Ads Overview</a></span>
+    <span><a href="https://ads.google.com/home/" 
+        class="team-link">Ads Overview</a></span>
   </div>
   <div class="col-md-8 job-description">
     <span class="job-title">Software Engineering Intern</span>
@@ -68,11 +76,11 @@
 </div>
 
 <!-- Columbia PSL -->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">Columbia University</span>
     </br>
-    <span class="team-name"><a href="https://github.com/Programming-Systems-Lab" class="team-link">Programming Systems Lab</a></span>
+    <span><a href="https://github.com/Programming-Systems-Lab" class="team-link">Programming Systems Lab</a></span>
   </div>
   <div class="col-md-8 job-description">
     <span class="job-title">Undergraduate Researcher</span>
@@ -88,11 +96,11 @@
 </div>
 
 <!-- 1002 TA -->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">Columbia University</span>
     </br>
-    <span class="team-name"><a href="https://scienceandsociety.columbia.edu/content/un1002-computing-context-cannon" class="team-link">Python UN1002</a></span>
+    <span><a href="https://scienceandsociety.columbia.edu/content/un1002-computing-context-cannon" class="team-link">Python UN1002</a></span>
   </div>
   <div class="col-md-8 job-description">
     <span class="job-title">Course Assistant</span>
@@ -102,11 +110,11 @@
 </div>
 
 <!-- Google Cloud Gaia -->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">Google</span>
     </br>
-    <span class="team-name"><a href="https://cloud.google.com/" class=
+    <span><a href="https://cloud.google.com/" class=
         "team-link">Cloud Gaia</a></span>
   </div>
   <div class="col-md-8 job-description">
@@ -124,11 +132,11 @@
 </div>
 
 <!-- AOI -->
-<div class="row resume-row">
+<div class="row resume-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4">
     <span class="company-name">AOI</span>
     </br>
-    <span class="team-name"><a href="http://ao-inc.com/" class="team-link">
+    <span><a href="http://ao-inc.com/" class="team-link">
         Applied Optoelectronics</a></span>
   </div>
   <div class="col-md-8 job-description">
@@ -138,20 +146,28 @@
   </div>
 </div>
 
-<div class="row heading" id="skills-heading">skills</div>
+<div class="row section-heading-text section-heading-padding" 
+  id="skills-heading" data-aos="fade-in">skills</div>
 
-<div class="row skills-row">
+<div class="row skills-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4 ">Languages</div>
   <div class="col-md-8">Python, Java, HTML, CSS/Sass, Javascript/jQuery, C++</div>
 </div>
 
-<div class="row skills-row">
+<div class="row skills-row" data-aos="fade-in" data-aos-offset="0">
   <div class="col-md-4 ">Frameworks & Tools</div>
   <div class="col-md-8">AngularDart, Flask, Jekyll, Photoshop</div>
 </div>
 
 
   </div>
+  
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+
 </body>
 
 </html>
