@@ -3,9 +3,16 @@ layout: default
 permalink: /blog/
 custom_css: blog
 ---
-<h3>Latest Posts</h3>
+<h3>Roundups</h3>
 
   {% for post in site.posts %}
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    <div class="row">
+      <div class="col-md-8">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+      <div class="col-md-4">
+        {{ post.date }}
+      </div>
+    </div>
   {% endfor %}
 
